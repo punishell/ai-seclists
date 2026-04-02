@@ -290,3 +290,47 @@ output_schema
 config_schema
 api/v1/schema
 swagger.yaml
+
+=== Port 8000 ===
+/.well-known/agent.json
+/a2a
+/a2a/message/send
+/a2a/send
+/a2a/skills
+/a2a/tasks/{task_id}/stream
+/a2a/workflow
+/a2a/workflow/graph
+/a2a/workflow/stream
+/agents
+/agents/capability/{capability}
+/agents/deregister
+/agents/heartbeat
+/agents/register
+/agents/{agent_id}
+/health
+=== Port 8001 ===
+/.well-known/agent.json
+/a2a
+/a2a/message/send
+/a2a/tasks/{task_id}/stream
+/health
+/schema/ai-context
+/schema/databases
+/schema/databases/{database}/tables
+/schema/databases/{database}/tables/{schema}/{table}/columns
+/schema/full
+/schema/refresh
+=== Port 8002 ===
+/.well-known/agent.json
+/a2a
+/a2a/message/send
+/a2a/tasks/{task_id}/stream
+/health
+=== Port 8003 ===
+/.well-known/agent.json
+/a2a
+/a2a/message/send
+/a2a/tasks/{task_id}/stream
+/extract-links
+/health
+/scan

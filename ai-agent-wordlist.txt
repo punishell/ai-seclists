@@ -256,3 +256,34 @@ metrics
 logs
 trace
 traces
+
+# === VECTOR DB / RAG ===
+api/v1/collections
+api/v1/indexes
+api/v1/ingest
+api/v1/chunks
+api/v1/documents
+vectors/search
+vectors/upsert
+
+# === AI UI FRAMEWORKS ===
+_stcore/stream
+gradio
+queue/join
+info
+config
+assets/index.js
+
+# === GATEWAY / PROXY ===
+v1/virtual-keys
+v1/metadata/cost
+admin/view_config
+health/openai
+health/anthropic
+
+# === SCHEMA / DISCOVERY ===
+input_schema
+output_schema
+config_schema
+api/v1/schema
+swagger.yaml
